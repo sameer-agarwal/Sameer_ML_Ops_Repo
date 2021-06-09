@@ -2,8 +2,8 @@
 -e .
 
 # external requirements
-click
 wheel
+click
 Sphinx
 coverage
 awscli
