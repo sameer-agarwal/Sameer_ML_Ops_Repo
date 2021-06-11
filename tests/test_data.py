@@ -1,6 +1,6 @@
 import sys
 
-sys.path.insert(1,r'C:\Users\Sameer Agarwal\OneDrive - Danmarks Tekniske Universitet\Documents\Courses\DTU ML OPs\04_Continuous_Integration\Structure_Example_repo\src\data')
+sys.path.insert(1,r'C:\Users\Sameer Agarwal\OneDrive - Danmarks Tekniske Universitet\Documents\Courses\DTU ML OPs\DTU_ML_OPs\Sameer_ML_Ops_Repo\src\data')
 from make_dataset import main
 
 def check_size(images):
