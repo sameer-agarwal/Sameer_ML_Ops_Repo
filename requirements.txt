@@ -8,7 +8,6 @@ Sphinx
 coverage
 awscli
 flake8
-logging
 torch
 argparse
 matplotlib
