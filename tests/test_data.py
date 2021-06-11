@@ -1,9 +1,10 @@
 import sys
 
-sys.path.insert(1,r'C:\Users\Sameer Agarwal\OneDrive - Danmarks Tekniske Universitet\Documents\Courses\DTU ML OPs\DTU_ML_OPs\Sameer_ML_Ops_Repo\src\data')
+#sys.path.insert(1,r'C:\Users\Sameer Agarwal\OneDrive - Danmarks Tekniske Universitet\Documents\Courses\DTU ML OPs\DTU_ML_OPs\Sameer_ML_Ops_Repo\src\data')
+sys.path.insert(1,r'Sameer_ML_Ops_Repo\src\data')
 from make_dataset import main
 
-def check_size(images):
+pdef check_size(images):
     for i in range(len(images)):
         assert images[i].shape == (1,28,28)
 
